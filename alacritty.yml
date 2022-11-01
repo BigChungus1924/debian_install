@@ -1,0 +1,12 @@
+window:
+  opacity: 0.45
+  decorations: full 
+  title: Terminal
+cursor:
+  style:
+    shape:  Block
+    thickness: 0.5
+colors:
+  primary:
+    foreground: '#528A66'
+    background: '#000000'
