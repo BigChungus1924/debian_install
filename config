@@ -13,10 +13,11 @@ set $mod mod1
 exec compton
 exec polybar
 exec nitrogen --restore
+exec_always --no-startup-id i3-autolayout autolayout
 for_window [class="^.*"] border pixel 0
 
-gaps inner 15
-gaps outer 7
+gaps inner 20
+gaps outer 40
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -58,7 +59,7 @@ floating_modifier $mod
 bindsym $mod+Return exec alacritty
 
 # kill focused window
-bindsym $mod+Shift+a kill
+bindsym $mod+a kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id dmenu_run
@@ -171,7 +172,7 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym $mod+j resize shrink width 10 px or 10 ppt
         bindsym k resize grow height 10 px or 10 ppt
         bindsym l resize shrink height 10 px or 10 ppt
         bindsym m resize grow width 10 px or 10 ppt
