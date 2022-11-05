@@ -1,0 +1,17 @@
+//@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
+//@theme "/usr/share/rofi/themes/android_notification.rasi"
+@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+
+window {
+location:	 north west;
+anchor:		 north west;
+height:		 50%;
+width:		 18%;
+orientation:     horizontal;
+y-offset:   27px;
+}
+
+
+

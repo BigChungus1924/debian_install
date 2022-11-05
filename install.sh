@@ -11,7 +11,7 @@ mkdir -p /home/$username/Pictures
 mkdir -p /home/$username/.config/polybar
 mkdir -p /home/$username/.themes
 mkdir -p /home/$username/.icons
-
+mkdir -p /home/$username/.config/rofi
 
 cp config.ini /home/$username/.config/polybar
 cp wallpaper.jpg /home/$username/Pictures
@@ -19,10 +19,9 @@ cp Orchis-Dark-Compact /home/$username/.themes
 cp config  /home/$username/.config/i3
 cp alacritty.yml /home/$username/.config/alacritty
 
-sudo apt install i3 chromium network-manager nm-applet nmcli blueberry brightlight gimp blender kdenlive mousepad dunst htop pcmanfm neofetch lxappearence feh polybar xorg compton cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3
+sudo apt install i3 chromium network-manager nm-applet nmcli blueberry brightlight gimp blender mousepad dunst htop pcmanfm neofetch lxappearence lxpolkit pulseaudio nitrogen variety polybar xorg compton cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3 
 
-nitrogen /home/$username/Pictures/wallpaper.jpg
-
+cargo install --git https://github.com/chmln/i3-auto-layout
 
 
 cd /home/$username/
