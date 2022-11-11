@@ -1,0 +1,6 @@
+0
+/home/mozanne/.config/variety/Favorites/OHR.HedgehogNest_EN-US0590169065_1920x1080.jpg
+/home/mozanne/.config/variety/Downloaded/Bing/OHR.HedgehogNest_EN-US0590169065_1920x1080.jpg
+/home/mozanne/.config/variety/Downloaded/nasa_apod/VolcanoStars_Vella_1920.jpg
+/home/mozanne/.config/variety/Downloaded/nasa_apod/OmegaCent_LRGB_final1_small.jpg
+/usr/share/images/desktop-base/desktop-background.xml
